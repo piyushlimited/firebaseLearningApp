@@ -23,7 +23,9 @@ class AppTheme {
     progressIndicatorTheme:
         const ProgressIndicatorThemeData(color: AppColors.primary),
     appBarTheme: const AppBarTheme(
-        backgroundColor: AppColors.primary, foregroundColor: AppColors.white),
+        backgroundColor: AppColors.primary,
+        foregroundColor: AppColors.white,
+        titleTextStyle: TextStyle(fontSize: 16.0)),
     textTheme: const TextTheme().copyWith(
         headlineLarge: AppTextStyles.headlineLargeLight,
         headlineMedium: AppTextStyles.headlineMediumLight,

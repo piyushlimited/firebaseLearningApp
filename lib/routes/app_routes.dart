@@ -17,7 +17,7 @@ class AppPages {
       transitionDuration: const Duration(milliseconds: 0),
     ),
     GetPage(
-      name: Routes.login,
+      name: Routes.register,
       page: () => RegisterScreen(),
       transition: Transition.native,
       transitionDuration: const Duration(milliseconds: 0),
